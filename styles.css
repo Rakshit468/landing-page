@@ -1,0 +1,58 @@
+*{
+    font-family: 'Roboto';
+}
+.logo{
+    font-size: 24px;
+    margin-right: 45em;
+    /*color: #F9FAF8;*/
+}
+
+.nav-links{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    margin-right: 5em;
+    /*color: #E5E7EB;*/
+}
+
+.intro{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub{
+    font-size: medium;
+    font-weight: 100;
+}
+
+.main-img{
+    width: 250px;
+    height: 125px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.signup-one{
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 25px
+}
+
+header{
+    display: flex;
+    margin-left: 10em;
+    margin-right: 10em;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
