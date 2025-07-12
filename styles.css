@@ -1,33 +1,53 @@
 *{
     font-family: 'Roboto';
 }
+
+body{
+    margin: 0px;
+}
 .logo{
+    align-self: flex-start;
+    font-weight: 900;
+    color: #F9FAF8;
     font-size: 24px;
-    margin-right: 45em;
+    margin-top: 1em;
+    margin-left: 8em;
     /*color: #F9FAF8;*/
 }
-
+.nav-links a{
+    color : #F9FAF8;
+}
 .nav-links{
+    align-self: flex-start;
+    margin-top: 1em;
     display: flex;
     gap: 1em;
     font-size: 18px;
+    margin-left: 40em;
     margin-right: 5em;
     /*color: #E5E7EB;*/
 }
 
 .intro{
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    margin-left: 0.5em;
     font-size: 48px;
     font-weight: 900;
 }
 
 .sub{
-    font-size: medium;
+    font-size: 18px;
     font-weight: 100;
 }
 
 .main-img{
-    width: 250px;
-    height: 125px;
+    width: 30em;
+    height: 12em;
+    align-self: flex-start;
+    margin-left: 10em;
+
 }
 
 .info-header{
@@ -36,6 +56,7 @@
 }
 
 .signup-one{
+    margin-top: 1em;
     background-color: #3882F6;
     color: white;
     width: 80px;
@@ -46,13 +67,22 @@
 }
 
 header{
+    background-color: #1F2937;
     display: flex;
-    margin-left: 10em;
-    margin-right: 10em;
-    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
+    height: 25em;
 }
 
+.intro-container{
+    margin-left: 10em;
+    width: 26em;
+    align-self: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
 
